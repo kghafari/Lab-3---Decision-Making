@@ -23,6 +23,10 @@ namespace Lab_3___Decision_Making
                 //get odds
                 if (userInput % 2 == 1)
                 {
+                    if (userInput > 60)
+                    {
+                        Console.WriteLine($"{userInput} is odd, and greater than 60");
+                    }
                     Console.WriteLine($"The number {userInput} is odd.");
                 }
                 //only evens left
